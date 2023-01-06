@@ -23,9 +23,9 @@ class Program
             } else if (magicNumberInt == guessNumberInt) {
                 Console.WriteLine("You guessed it!");
                 if (guesses == 1) {
-                    Console.WriteLine("You has made 1 guess only to get the answer!");
+                    Console.WriteLine("You have made 1 guess only to get the answer!");
                 } else {
-                    Console.WriteLine($"You has made {guesses} guesses to get the answer!");
+                    Console.WriteLine($"You have made {guesses} guesses to get the answer!");
                 }
                 Console.WriteLine("Do you want to play again? ");
                 string answer = Console.ReadLine();
